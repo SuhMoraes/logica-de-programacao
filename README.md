@@ -1,4 +1,4 @@
-<h1 align="center">Curso Lógica de Programação </h1>
+<h1 align="center">Lógica de Programação </h1>
  
 <h2>Introdução</h2>
 
