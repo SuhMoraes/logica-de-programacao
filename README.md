@@ -39,11 +39,11 @@
   
   ~~~ 
   inicio{
-           caratere:texto;
+           caractere: texto;
            inteiro: idade:
            
            texto = "Olá, meu nome é Suhailah!";
-           kg = 60;
+           idade = 30;
            
            escreva(texto);
            escreva(idade);
