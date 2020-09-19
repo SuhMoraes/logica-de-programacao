@@ -70,8 +70,85 @@
  
  <h2>Atribuição do tipo Real</h2>
  
-<p>Vou atibuir um tipo 
+<p> Real é também um tipo numérico, mas ele aceita casas decimais.
  
+ Enquanto o inteiro trabalha apenas números inteiros sem vírgula, o real trabalha número com vírgulas.
+ 
+ >Atenção! <br>
+ >Na linguagem de programação não se usa vírgula `,` e sim, utiliza-se `.`
+ 
+ Vamos executar o tipo Real:
+ 
+ ~~~
+  inicio {
+           caractere: nome;
+           inteiro: idade;
+           real: altura;
+           
+           nome = "Suhailah!";
+           idade = 30;
+           altura = 1.63
+           
+           escreva(nome);
+           escreva(idade);
+           escreva(altura);
+     }           
+ ~~~~
+ 
+  <strong>Resultado:</strong>
+  ~~~ 
+  Suhailah!
+  30
+  1.63      
+ ~~~~
+ 
+ <h2>Concatenação</h2>
+<p>Concatenção server para concatenar informações (juntar informações), deixando o código um pouco mais limpo. Vamos ao exemplo:<br>
+
+  <strong>Código:</strong>
 </p>
 
+~~~
+  inicio {
+           caractere: nome;
+           inteiro: idade;
+           real: altura
+           
+           nome = "Suhailah";
+           idade = 30;
+           altura = 1.63;
+           
+           escreva(nome + " , " + idade + " , " altura);          
+     }           
+ ~~~~
+<strong>Resultado:</strong>
+  ~~~ 
+  Suhailah, 30, 1.63    
+ ~~~~
+<p> O operador mais ` + ` é utilizado para concatenar informações.
+ A partir do momento que ultilizar o operador mais ` + `, o resultado será um novo texto e esse texto será escrito, como vimos acima. </p>
  
+ <p>Podemos criar uma outra varíavel chamada `info`:</p>
+ 
+ 
+~~~
+  inicio {
+           caractere: nome;
+           inteiro: idade;
+           real: altura
+           
+           nome = "Suhailah";
+           idade = 30;
+           altura = 1.63;
+           
+           caractere: info;
+           
+           info = nome + " , " + idade + " , " altura;  
+           
+           escreva(info);
+     }           
+ ~~~~
+<strong>Resultado:</strong>
+  ~~~ 
+  Suhailah, 30, 1.63    
+ ~~~~
