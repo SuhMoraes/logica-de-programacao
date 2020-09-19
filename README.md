@@ -103,7 +103,7 @@
  ~~~~
  
  <h2>Concatenação</h2>
-<p>, Concatenar é unir 2 (duas) ou mais variáveis por meio de uma linguagem em uma única variável. Vamos ao exemplo:<br>
+<p>Concatenação é unir 2 (duas) ou mais variáveis por meio de uma linguagem em uma única variável. Vamos ao exemplo:<br>
 
   <strong>Código:</strong>
 </p>
@@ -342,11 +342,11 @@ A variável `fv` teremos que calcular:
 }
   
   ~~~
- Nesse código foi adicionado o `pot` que representa a potenciação. O `pot` ele recebe duas informações que são: 
+ Nesse código foi adicionado o `pot` que representa a potenciação. O `pot` recebe duas informações que são: 
  1. O valor da base da potenciação `1 + i `
- 2. È expoente `n`.
+ 2. E o expoente `n`.
 
- A taxa deverá ser informado pelo usuário e nós temos que transformar em porcentagem.
+ A taxa deverá ser informado pelo usuário e o qual teremos que transformar a taxa em porcentagem.
   ~~~
    início {
       real: fv;
@@ -362,7 +362,7 @@ A variável `fv` teremos que calcular:
 }
   ~~~
  
-A prioridade desse código será
+A prioridade desse código será:
 
 1. `i/100`;
 2. Resultado da divisão `+ 1 `;
