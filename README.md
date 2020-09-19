@@ -21,7 +21,7 @@
  <h2>Atribuição do tipo inteiro</h2>
  
  <p>Existe outro caractere que é um outro tipo de dado: o tipo inteiro. Capaz de armazenar número inteiros. <br>
- Vou criar tipo inteiro para armazenar a idade de uma pessoa.
+ Vou criar uma variável do  tipo inteiro para armazenar a idade de uma pessoa.
  
  ~~~
  inicio {
