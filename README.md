@@ -326,7 +326,7 @@ O algoritmo que será utilizado, será um algoritmo para calcular taxa de juros.
   }
   ~~~
   
-A variável `fv` terei que calcular:
+A variável `fv` teremos que calcular:
  ~~~
    início {
       real: fv;
