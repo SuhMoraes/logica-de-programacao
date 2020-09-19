@@ -18,7 +18,7 @@
   >O programa é executado de cima para baixo, da esquerda para direia.
  
  
- <h2>Atribuição de número do tipo inteiro</h2>
+ <h2>Atribuição do tipo inteiro</h2>
  
  <p>Existe outro caractere que é um outro tipo de dado: o tipo inteiro. Capaz de armazenar número inteiros. <br>
  Vou criar tipo inteiro para armazenar a idade de uma pessoa.
@@ -38,24 +38,40 @@
   <strong> Declaro: </strong>
   
   ~~~ 
-  inicio{
+  inicio {
            caractere: texto;
-           inteiro: idade:
+           inteiro: idade;
+   }          
+    
+ ~~~~
+ 
+ <strong> Defino um valor </strong>
+  ~~~
+  inicio {
+           caractere: texto;
+           inteiro: idade;
            
            texto = "Olá, meu nome é Suhailah!";
            idade = 30;
            
            escreva(texto);
            escreva(idade);
-       }
+     }
+           
  ~~~~
        
  <strong>O valor declarado aparece:  </strong>
   
-  ~~~ Olá, meu nome é Suhailah!
-      30
+  ~~~ 
+  Olá, meu nome é Suhailah!
+  30
       
  ~~~~
+ 
+ <h2>Atribuição do tipo Real</h2>
+ 
+<p>Vou atibuir um tipo 
+ 
 </p>
 
  
