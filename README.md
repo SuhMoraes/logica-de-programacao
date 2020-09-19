@@ -33,7 +33,7 @@
   Fique atento, pois não posso armazenar um texto dentro da idade, porque o tipo inteiro armazena somente números. Não é necessário colocar aspas entre os números.
   
   Outro detalhe importante é colocar valores dentro de uma variável se ela existir previamente; <br>
-   Vamos a ordem de declaração de uma ordem:
+   Vamos a ordem de declaração:
   
   <strong> Declaro: </strong>
   
