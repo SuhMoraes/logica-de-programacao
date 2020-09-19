@@ -103,7 +103,7 @@
  ~~~~
  
  <h2>Concatenação</h2>
-<p>Concatenção server para concatenar informações (juntar informações), deixando o código um pouco mais limpo. Vamos ao exemplo:<br>
+<p>, Concatenar é unir 2 (duas) ou mais variáveis por meio de uma linguagem em uma única variável. Vamos ao exemplo:<br>
 
   <strong>Código:</strong>
 </p>
