@@ -72,7 +72,7 @@
  
 <p> Real é também um tipo numérico, porém aceita casas decimais.
  
- Enquanto o inteiro trabalha apenas números inteiros sem vírgula, o real trabalha número com vírgulas.
+ Enquanto o tipo inteiro trabalha apenas números inteiros sem vírgula, o tipo real trabalha número com vírgulas.
  
  >Atenção! <br>
  >Na linguagem de programação não se usa vírgula `,` e sim, utiliza-se `.`
