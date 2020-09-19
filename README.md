@@ -342,7 +342,7 @@ A variável `fv` teremos que calcular:
 }
   
   ~~~
- Nesse código foi adicionado o `pot`. O `pot` ele recebe duas informações que são: 
+ Nesse código foi adicionado o `pot` que representa a potenciação. O `pot` ele recebe duas informações que são: 
  1. O valor da base da potenciação `1 + i `
  2. È expoente `n`.
 
