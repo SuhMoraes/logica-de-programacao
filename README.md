@@ -288,7 +288,114 @@ E existe uma outra forma de simplificação:
 
 <h2> Cálculo de juros compostos</h2>
 
+O algoritmo que será utilizado, será um algoritmo para calcular taxa de juros.
 
+  Para isso, iremos utilizar uma fórmula de juros compostos.
+  
+  [IMAGEM]
+  
+   
+ Temos mais uma coisa a resolver, caso a pessoa compre um carro, será necessário informar o valor inicial `PV`, a taxa de juros a qual será pago, caso financiado `i` e o tempo a ser pago `n`, para sabermos o valor total `FV`.
+  
+  Vamos distrinchar o que tem nessa fórmula.
+  <strong>FV</strong> = Valor futuro
+  <strong>PV</strong> = Valor Presente
+  <strong>i</strong> = Taxa de juros (ex:taxa de juros do mês)
+  <strong>n</strong> = Prazo (Tempo)
+  
+  Vamos começar criando as váriaveis do tipo real:
+   ~~~
+   início {
+      real: fv;
+      real: pv;
+      real: i;
+      real: n;   
+   }
+  ~~~
+  
+  Vamos ler os valores e armazenar:
+   ~~~
+   início {
+      real: fv;
+      real: pv;
+      real: i;
+      real: n;  
+      
+      leia("Valor atual", pv);
+      leia("Taxa",i);
+      leia("Tempo",n);      
+  }
+  ~~~
+  
+A variável `fv` terei que calcular:
+ ~~~
+   início {
+      real: fv;
+      real: pv;
+      real: i;
+      real: n;  
+      
+      leia("Valor atual", pv);
+      leia("Taxa",i);
+      leia("Tempo",n);   
+      
+     fv = pv * pot(1 + i)n;
+}
+  
+  ~~~
+ Nesse código foi adicionado o `pot`. O `pot` ele recebe duas informações que são: 
+ 1. O valor da base da potenciação `1 + i `
+ 2. È expoente `n`.
 
+ A taxa deverá ser informado pelo usuário e nós temos que transformar em porcentagem.
+  ~~~
+   início {
+      real: fv;
+      real: pv;
+      real: i;
+      real: n;  
+      
+      leia("Valor atual", pv);
+      leia("Taxa",i);
+      leia("Tempo",n);   
+      
+     fv = pv * pot(1 + i /100 , n);
+}
+  ~~~
+ 
+A prioridade desse código será
+
+1. `i/100`;
+2. Resultado da divisão `+ 1 `;
+3. Resultado será elevado a `n`;
+4. E o resultado da conta que estava entre parenteses será multiplicado em `pv`;
+5. O resultado será `fv`;
+
+Digamos que o i seja o número 2, ficando assim:
+1. `2/100`;
+2. `0.002 + 1`;
+3.`1.002`elevado a n;
+4. E o resultado da conta que estava entre parenteses será multiplicado em `pv`;
+5. O resultado será `fv`;
+
+No final o `FV` tem o seu resultado.
+~~~
+   início {
+      real: fv;
+      real: pv;
+      real: i;
+      real: n;  
+      
+      leia("Valor atual", pv);
+      leia("Taxa",i);
+      leia("Tempo",n);   
+      
+     fv = pv * pot(1 + i /100 , n);
+     
+     escreva("FV = " + fv);
+}
+  ~~~
+  
+  ![Juros Composto GitHub}(https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/juroscomposto.gif)
 
 
