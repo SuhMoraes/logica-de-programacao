@@ -296,11 +296,11 @@ O algoritmo que será utilizado, será um algoritmo para calcular taxa de juros.
    
  Temos mais uma coisa a resolver, caso a pessoa compre um carro, será necessário informar o valor inicial `PV`, a taxa de juros a qual será pago, caso financiado `i` e o tempo a ser pago `n`, para sabermos o valor total `FV`.
   
-  Vamos distrinchar o que tem nessa fórmula.
-  <strong>FV</strong> = Valor futuro
-  <strong>PV</strong> = Valor Presente
-  <strong>i</strong> = Taxa de juros (ex:taxa de juros do mês)
-  <strong>n</strong> = Prazo (Tempo)
+  Vamos distrinchar o que tem nessa fórmula.<br>
+  <strong>FV</strong> = Valor futuro<br>
+  <strong>PV</strong> = Valor Presente<br>
+  <strong>i</strong> = Taxa de juros (ex:taxa de juros do mês)<br>
+  <strong>n</strong> = Prazo (Tempo)<br>
   
   Vamos começar criando as váriaveis do tipo real:
    ~~~
