@@ -70,7 +70,7 @@
  
  <h2>Atribuição do tipo Real</h2>
  
-<p> Real é também um tipo numérico, mas ele aceita casas decimais.
+<p> Real é também um tipo numérico, porém aceita casas decimais.
  
  Enquanto o inteiro trabalha apenas números inteiros sem vírgula, o real trabalha número com vírgulas.
  
