@@ -171,10 +171,29 @@ No vídeo abaixo iremos ler o nome fornecido pela pessoa. Com o código pronto i
 3. Vamos executar :arrow_forward:.
 
  ![Input-GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/Input.gif)
+ 
+ <p>O comando `leia` recebe duas informações,dois parâmetros, essa é a termenologia usada em programação. <br>
+ 
+ Os parâmetros usados são: o texto, é o que se pede na caixa de texto, o local de armazenamento da informação fornecida pelo usuário, que nesse caso é o nome. O qual será armazendo em `nome`.<br>
+ 
+  E da mesma maneira que utilizei em `nome`, pode ser usado em `idade`, e `altura`.</p>
+
+<p><strong>Veja o exemplo: </strong></p>
+ 
+ 
+  GIF
+  
+  
   
 
-
-
+<strong>REGRAS IMPORTANTES!</strong>
+1. O nome de variáveis deve sempre começar com <strong>letras</strong>.
+2. O nome das variáveis pode ser seguidos de números. Exemplos: 
+`var = idade2` , `var = i1altura`.
+3. Não pode utilizar símbolos, <strong>execeto</strong> underline `_`.
+4. Não pode conter <strong>espaços</strong> em branco.
+5. Não pode conter letras com <strong>acentos</strong>.
+6. Não pode ser uma <strong>palavra reservada</strong>.
 
 
 
