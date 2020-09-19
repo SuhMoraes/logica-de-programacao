@@ -24,20 +24,21 @@
  Vou criar tipo inteiro para armazenar a idade de uma pessoa.
  
  ~~~
-  inicio {
+ inicio {
      inteiro: idade;
      
      idade = 30;
   }
    ~~~~
-  Fique atento, pois não posso armazenar um texto dentro da idade, porque o tipo inteiro armazena número.Não é necessário colocar aspas entre os números.
+  Fique atento, pois não posso armazenar um texto dentro da idade, porque o tipo inteiro armazena somente números. Não é necessário colocar aspas entre os números.
   
   Outro detalhe importante é colocar valores dentro de uma variável se ela existir previamente; <br>
    Vamos a ordem de declaração de uma ordem:
   
   <strong> Declaro: </strong>
   
-  ~~~ Inicio{
+  ~~~ 
+  inicio{
            caratere:texto;
            inteiro: idade:
            
