@@ -292,8 +292,7 @@ O algoritmo que será utilizado, será um algoritmo para calcular taxa de juros.
 
   Para isso, iremos utilizar uma fórmula de juros compostos.
   
-  [IMAGEM]
-  
+  ![Juros Composto GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/Imagem/Juros%20compostos.png)  
    
  Temos mais uma coisa a resolver, caso a pessoa compre um carro, será necessário informar o valor inicial `PV`, a taxa de juros a qual será pago, caso financiado `i` e o tempo a ser pago `n`, para sabermos o valor total `FV`.
   
