@@ -259,7 +259,7 @@ Veja o Exemplo abaixo:
 
 <strong> Resultado </strong>
 
-gif
+![Média GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/m%C3%A9dia1.gif)
 
 <strong> Operadores Aritméticos </strong>
 
@@ -278,13 +278,15 @@ Na hora de somar as notas, existem uma maneira mais simplificada de somar e divi
 2. Passo: Adicione na váriável média as três notas;
 3. Passo: Adicione os parênteses no antes da `nota1` e após a `nota3`.
 
-gif
+![Média GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/m%C3%A9dia2.gif)
 
 E existe uma outra forma de simplificação:
 
 
-gif
+![Média GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/m%C3%A9dia3.gif)
 
+
+<h2> Cálculo de juros compostos</h2>
 
 
 
