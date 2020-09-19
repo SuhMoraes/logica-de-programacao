@@ -395,6 +395,6 @@ No final o `FV` tem o seu resultado.
 }
   ~~~
   
-  ![Juros Composto GitHub}(https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/juroscomposto.gif)
+  ![Juros Composto GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/juroscomposto.gif)
 
 
