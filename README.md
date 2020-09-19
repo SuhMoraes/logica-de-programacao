@@ -200,13 +200,90 @@ No vídeo abaixo iremos ler o nome fornecido pela pessoa. Com o código pronto i
 
 
 
+<h1>Aprendendo Média</h1>
+
+<p> Nessa aula vamos criar um cálculo de média, baseado nas notas de três alunos </p>.
+
+<p>A primeira pergunta que possa vir a sua mente: "Como se calcula média nas notas de uma aluno?". Acertei?!</p>
+
+<p>Vou mostrar passo a passo como iremos fazer isso.<p>
+ 
+1.Passo: O que vamos precisar primeiro é declarar as notas do tipo real: 
+~~~
+inicio {
+   real: nota1;
+   real: nota2;
+   real: nota3;
+}
+~~~
+
+2.Passo: Carregar essas notas nas variáveis. Daremos um Input nas notas geradas.
+Exemplo:
+~~~
+inicio {
+   real: nota1;
+   real: nota2;
+   real: nota3;
+   
+   leia("Digite a Nota 1!", nota1);
+   leia("Digite a Nota 2!", nota2);
+   leia("Digite a Nota 3!", nota3);
+}
+~~~
+
+3.Passo: Fazer a conta da média, que será feita assim:
+Soma-se os três valores(`nota1` + `nota2` + `nota3`) e divide o resultado por 3.
+
+4.Passo: Executar o comando escreva, para mostrar a média.
+
+Veja o Exemplo abaixo:
+ ~~~
+ inicio {
+   real: nota1;
+   real: nota2;
+   real: nota3;
+   
+   leia("Digite a Nota 1!", nota1);
+   leia("Digite a Nota 2!", nota2);
+   leia("Digite a Nota 3!", nota3);
+   
+   real: soma;
+   soma = nota1 + nota2 + nota3; 
+   
+   real: media;
+   media = soma / 3;
+   
+   escreva("A média é " + media);
+}
+~~~
+
+<strong> Resultado </strong>
+
+gif
+
+<strong> Operadores Aritméticos </strong>
+
+Nome |Símbolo
+--------- | ------
+Soma | +
+Subtração | -
+Multipliação| *
+Divisão | /
+
+<strong>Simplificando os códigos</strong>
+
+Na hora de somar as notas, existem uma maneira mais simplificada de somar e dividir tudo na mesma linha e já sair o resultado, veja:
+
+1. Passo: Apague a variável `soma` e os valores declarados.
+2. Passo: Adicione na váriável média as três notas;
+3. Passo: Adicione os parênteses no antes da `nota1` e após a `nota3`.
+
+gif
+
+E existe uma outra forma de simplificação:
 
 
-
-
-
-
-
+gif
 
 
 
