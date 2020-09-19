@@ -152,3 +152,46 @@
   ~~~ 
   Suhailah, 30, 1.63    
  ~~~~
+ 
+ Estão compreendendo como funciona a varíavel?!
+ <p>Basicamente você declara a variável conforme o tipo, armazena o valor correspondente e depois você usa os dados futuramente.<br>
+ Essa é a base de funcionamento de qualquer programa.</p>
+
+<h1>Comando Input - Entrada de Dados</h1>
+
+<p>Input é a entrada de informações armazenadas no computador. E esses dados serão usados posteriomente produzindo informações de saída.</p>
+
+No vídeo abaixo iremos ler o nome fornecido pela pessoa. Com o código pronto iremos:
+  
+1. Colocar o `// `, para comentar o nome. 
+>Observação: O `// `  serve para comentar o que está no código, pois o que é comentado não é executado.
+
+2. Colocar o comando `leia`.
+
+3. Vamos executar :arrow_forward:.
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
