@@ -170,8 +170,7 @@ No vídeo abaixo iremos ler o nome fornecido pela pessoa. Com o código pronto i
 
 3. Vamos executar :arrow_forward:.
 
-
-
+ ![Input-GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/Input.gif)
   
 
 
