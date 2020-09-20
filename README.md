@@ -515,6 +515,7 @@ Para isso precisamos saber quanto vale 1 milha em km.
 </p>
 
 <p> Iremos declarar o tipo real milha e pedir para ler;</p>
+
 ~~~
 início {
       real: ml;    
@@ -523,7 +524,9 @@ início {
 }
 ~~~
 
+
 Depois iremos declarar o tipo real para km, montar uma pequena equação e dar o comando escreva; 
+
 ~~~
 início {
     real: ml;    
@@ -535,6 +538,8 @@ início {
     escreva("A conversão de Milha ", + ml, " Para Km, é de: " + km);
   }
 ~~~
+
  <strong>Resultado</strong>
+ 
  
  ![Milha em Km](https://ik.imagekit.io/fp3xx2hhnq/milhaemkm_ZEfIWVwHB.gif)
