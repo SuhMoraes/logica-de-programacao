@@ -1,4 +1,14 @@
 <h1 align="center">Lógica de Programação </h1>
+
+# Indíce
+ - [Introdução](#-Introdução)
+ - [Criando um programa](#-Criando-um-programa])
+ - [Atribuição do tipo inteiro](#-atribuição-do-tipo-inteiro)
+ - [Atribuição do tipo Real](#-[Atribuição-do-tipo-Real)
+ - [Concatenação](#-Concatenação)
+ - [Comando Input - Entrada de Dados](#-comando-input-entrada-de-dados)
+ - [Aprendendo Média](#-aprendendo-media)
+ - [Calculando juros composto](#-Calculando-juros-composto)
  
 <h2>Introdução</h2>
 
@@ -20,8 +30,8 @@
  
  <h2>Atribuição do tipo inteiro</h2>
  
- <p>Existe outro caractere que é um outro tipo de dado: o tipo inteiro. Capaz de armazenar número inteiros. <br>
- Vou criar uma variável do  tipo inteiro para armazenar a idade de uma pessoa.
+ <p>O caractere que é um tipo de dado é o tipo inteiro. O tipo inteiro é capaz de armazenar número inteiros,ou seja, sem casas decimais. <br>
+ Vamos criar uma variável do  tipo inteiro para armazenar a idade de uma pessoa.
  
  ~~~
  inicio {
@@ -30,12 +40,12 @@
      idade = 30;
   }
    ~~~~
-  Fique atento, pois não posso armazenar um texto dentro da idade, porque o tipo inteiro armazena somente números. Não é necessário colocar aspas entre os números.
+  Fique atento, pois não pode armazenar um texto dentro da variável idade, porque o tipo inteiro armazena somente números. Não é necessário colocar aspas entre os números.
   
   Outro detalhe importante é colocar valores dentro de uma variável se ela existir previamente; <br>
    Vamos a ordem de declaração:
   
-  <strong> Declaro: </strong>
+  <strong> Declaração: </strong>
   
   ~~~ 
   inicio {
@@ -45,7 +55,7 @@
     
  ~~~~
  
- <strong> Defino um valor </strong>
+ <strong> Definição de um valor </strong>
   ~~~
   inicio {
            caractere: texto;
@@ -163,14 +173,14 @@
 
 No vídeo abaixo iremos ler o nome fornecido pela pessoa. Com o código pronto iremos:
   
-1. Colocar o `// `, para comentar o nome. 
->Observação: O `// `  serve para comentar o que está no código, pois o que é comentado não é executado.
+1. Colocar as barras `// `, para comentar o nome. 
+>Observação: As barras `// `  serve para comentar o que está no código, pois o que é comentado não é executado.
 
 2. Colocar o comando `leia`.
 
 3. Vamos executar :arrow_forward:.
 
- ![Input-GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/Input.gif)
+ ![Input-GitHub](https://ik.imagekit.io/fp3xx2hhnq/Input_zCll7h2NkA.gif)
  
  <p>O comando `leia` recebe duas informações,dois parametros, essa é a termenologia usada em programação. <br>
  
@@ -181,15 +191,15 @@ No vídeo abaixo iremos ler o nome fornecido pela pessoa. Com o código pronto i
 <p><strong>Veja o exemplo: </strong></p>
  
  
-![Parametro GitHUb](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/Parametros.gif)
+![Parametro GitHUb](https://ik.imagekit.io/fp3xx2hhnq/Parametros_L84Z3qh8Ji.gif)
   
   
   
 
 <strong>REGRAS IMPORTANTES!</strong>
 1. O nome de variáveis deve sempre começar com <strong>letras</strong>.
-2. O nome das variáveis pode ser seguidos de números. Exemplos: 
-`var = idade2` , `var = i1altura`.
+2. O nome das variáveis pode ser seguidos de números. Exemplos: <br>
+`var = idade2` <br> `var = i1altura`
 3. Não pode utilizar símbolos, <strong>execeto</strong> underline `_`.
 4. Não pode conter <strong>espaços</strong> em branco.
 5. Não pode conter letras com <strong>acentos</strong>.
@@ -259,7 +269,7 @@ Veja o Exemplo abaixo:
 
 <strong> Resultado </strong>
 
-![Média GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/m%C3%A9dia1.gif)
+![Média GitHub](https://ik.imagekit.io/fp3xx2hhnq/m_dia1_TYokrLs-2.gif)
 
 <strong> Operadores Aritméticos </strong>
 
@@ -278,12 +288,12 @@ Na hora de somar as notas, existem uma maneira mais simplificada de somar e divi
 2. Passo: Adicione na váriável média as três notas;
 3. Passo: Adicione os parênteses no antes da `nota1` e após a `nota3`.
 
-![Média GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/m%C3%A9dia2.gif)
+![Média GitHub](https://ik.imagekit.io/fp3xx2hhnq/m_dia2_8emmnPqdw.gif)
 
 E existe uma outra forma de simplificação:
 
 
-![Média GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/m%C3%A9dia3.gif)
+![Média GitHub](https://ik.imagekit.io/fp3xx2hhnq/m_dia3_Xxdiih3sN.gif)
 
 
 <h2> Cálculo de juros compostos</h2>
@@ -292,7 +302,7 @@ O algoritmo que será utilizado, será um algoritmo para calcular taxa de juros.
 
   Para isso, iremos utilizar uma fórmula de juros compostos.
   
-  ![Juros Composto GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/Imagem/Juros%20compostos.png)  
+  ![Juros Composto GitHub](https://ik.imagekit.io/fp3xx2hhnq/Juros_compostos_1N0wcz4BW.png)  
    
  Temos mais uma coisa a resolver, caso a pessoa compre um carro, será necessário informar o valor inicial `PV`, a taxa de juros a qual será pago, caso financiado `i` e o tempo a ser pago `n`, para sabermos o valor total `FV`.
   
@@ -395,6 +405,4 @@ No final o `FV` tem o seu resultado.
 }
   ~~~
   
-  ![Juros Composto GitHub](https://github.com/SuhMoraes/logica-de-programacao/blob/master/gif/juroscomposto.gif)
-
-
+  ![Juros Composto GitHub](https://ik.imagekit.io/fp3xx2hhnq/juroscomposto_Ma3itsbFQ.gif)
