@@ -1,12 +1,13 @@
 <h1 align="center">Lógica de Programação </h1>
 
 # Indíce
+
  - [Introdução](#-Introdução)
- - [Criando um programa](#-Criando-um-programa])
+ - [Criando um programa](#Criando-um-programa])
  - [Atribuição do tipo inteiro](#-Atribuição-do-tipo-inteiro)
  - [Atribuição do tipo Real](#-[Atribuição-do-tipo-Real)
  - [Concatenação](#-Concatenação)
- - [Comando Input - Entrada de Dados](#-Comando-Input-entrada-de-dados)
+ - [Comando Input - Entrada de Dados](#Comando-Input-entrada-de-dados)
  - [Aprendendo Média](#-aprendendo-media)
  - [Calculando juros composto](#-Calculando-juros-composto)
  <br> 
