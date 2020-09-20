@@ -21,9 +21,16 @@
  Todo algoritmo começa com bloco início.
   ~~~
   inicio {
+    escreva("Olá, meu primeiro código!");
   }
  ~~~
- Onde é delimitado no abrir e fechar chaves ```{ }```. O conteúdo somente será executado se estiver dentro das chaves.
+  As chaves  ```{ }```funciona como uma delimitação do código. O conteúdo somente será executado se estiver dentro das chaves.
+
+  O comando ```escreva``` recebe o que  está entre parênteses```()```, chamado de parametro (seria a informação para o programa funcionar).
+
+
+  Aspas ```" "```, é utilizado para os textos er
+
   
   >O programa é executado de cima para baixo, da esquerda para direia.
  
