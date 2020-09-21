@@ -4,12 +4,12 @@
 
  - [Introdução](#-Introdução)
  - [Criando um programa](#Criando-um-programa])
- - [Atribuição do tipo inteiro](#-Atribuição-do-tipo-inteiro)
- - [Atribuição do tipo Real](#-[Atribuição-do-tipo-Real)
- - [Concatenação](#-Concatenação)
+ - [Atribuição do tipo inteiro](#Atribuição-do-tipo-inteiro)
+ - [Atribuição do tipo Real](#Atribuição-do-tipo-Real)
+ - [Concatenação](#Concatenação)
  - [Comando Input - Entrada de Dados](#Comando-Input-entrada-de-dados)
- - [Aprendendo Média](#-aprendendo-media)
- - [Calculando juros composto](#-Calculando-juros-composto)
+ - [Aprendendo Média](#Aprendendo-Média)
+ - [Calculando juros composto](#Calculando-juros-composto)
  <br> 
  <br> 
  <hr>
