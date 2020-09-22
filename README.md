@@ -6,13 +6,13 @@
  - [Criando um programa](#Criando-um-programa])
  - [Atribuição do tipo inteiro](#Atribuição-do-tipo-inteiro)
  - [Atribuição do tipo Real](#Atribuição-do-tipo-Real)
-<<<<<<< HEAD
+
  - [Concatenação](#Concatenação)
  - [Comando Input - Entrada de Dados](#Comando-Input-entrada-de-dados)
-=======
+
  - [Concatenação](#-Concatenação)
  - [Comando Input - Entrada de Dados](#Comando-Input-Entrada-de-Dados)
->>>>>>> 20960bf65bfe705f377e5750e8c6f62671dbc7e6
+
  - [Aprendendo Média](#Aprendendo-Média)
  - [Calculando juros composto](#Calculando-juros-composto)
  <br> 
