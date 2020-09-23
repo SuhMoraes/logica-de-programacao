@@ -1,6 +1,6 @@
 <h1 align="center">Lógica de Programação </h1>
 
-# Indíce
+# Índice
 
  - [Introdução](#-Introdução)
  - [Criando um programa](#Criando-um-programa])
